@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleExecutable</key><string>SVNFinderSync</string>
+<key>CFBundleIdentifier</key><string>net.wologic.svndesk.finder</string>
+<key>CFBundleName</key><string>SVN Desk Finder</string>
+<key>CFBundleDisplayName</key><string>SVN Desk Finder</string>
+<key>CFBundlePackageType</key><string>XPC!</string>
+<key>CFBundleVersion</key><string>2</string>
+<key>CFBundleShortVersionString</key><string>1.1.0</string>
+<key>LSMinimumSystemVersion</key><string>13.0</string>
+<key>LSUIElement</key><true/>
+<key>NSExtension</key><dict>
+<key>NSExtensionPointIdentifier</key><string>com.apple.FinderSync</string>
+<key>NSExtensionPrincipalClass</key><string>SVNDeskFinderSync</string>
+<key>NSExtensionAttributes</key><dict/>
+</dict>
+</dict></plist>
